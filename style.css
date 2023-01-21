@@ -1,0 +1,14 @@
+*{
+    text-align: center;
+    background-color: rgb(95, 229, 229);
+}
+.header{}
+#odin{
+    height: auto;
+    width: 300px;  
+}
+
+.list{
+font-size: 30px;
+list-style: none;
+}
