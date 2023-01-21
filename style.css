@@ -4,13 +4,20 @@
 }
 .header,
 .list,
-.text{
+.text,
+.subheader{
     color:white
+}
+.header,
+.subheader{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .header{
     font-size:50px ;
     font-weight:bolder;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.subheader{
+    font-size: 40px;
 }
 #odin{
     height: auto;
@@ -24,8 +31,12 @@
     font-size: 20px;
     font-weight: 400;
 }
-
 .list{
-font-size: 30px;
+font-size: 24px;
+}
+.list.unordered{
 list-style: none;
+}
+.list.ordered{
+    list-style:georgian ;
 }
