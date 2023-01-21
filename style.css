@@ -1,11 +1,28 @@
 *{
     text-align: center;
-    background-color: rgb(95, 229, 229);
+    background-color:rgb(102, 102, 102);
 }
-.header{}
+.header,
+.list,
+.text{
+    color:white
+}
+.header{
+    font-size:50px ;
+    font-weight:bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 #odin{
     height: auto;
     width: 300px;  
+}
+.text,
+.list{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text{
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .list{
